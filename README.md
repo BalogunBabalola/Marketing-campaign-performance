@@ -46,7 +46,7 @@ A marketing team is running campaigns across multiple paid channels, but leaders
 
 - **Which Customer_Segment converts most efficiently, and does that ranking change depending on channel:**  Segment conversion efficiency does depend on channel which shows the best-converting age group is not the same across all six channels. **Email's 35-44 segment with a CVR (8.12%)** meaningfully more efficient than the rest of the dataset. Conversions(CVR) was not compared as a value alone; it was paired with Cost-Per-Acquisition(CPA) of each customers group who are **18-24,25-34,35-44 and all ages**. Findings show that **CVR** ranged from **7.94% to 8.12%** while **CPA** is between **$281.84 and $287.37**. The **18-24** age group has its highest **CPA** of **$287.37** from **Google Ads** while the most efficient **CVR** of this age group came from **Facebook(8.08%)**. Campaigns targeting **25-34 group** has its **CPA** going as high as **$285.85** which is for **Instagram** campaigns while the most efficient **CVR** for this age-group came from **Email(8.03%)**.  Campaigns for all age group has its highest CPA to be from **Youtube($286.40)** while the best **CVR** here is from **Website** at **8.06%**.
 
-![alt text](assets/image-3.png)
+![alt text](assets/image-4.png)
 
 - **Does campaign Duration correlate with ROI or engagement:** This is to know if spend efficiency is time-decaying. **Engagement Score** which is synonymous to ratings in the instance of this dataset is rated from 1 to 10 while **campaign durations** are capped at **15,30,45 and 60 days**.
 Correlation coefficient values between **campaign duration and ROI** amounts to **0.0011** which is a **weak correlation coefficient** while the correlation coefficient values between **campaign duration and engagement score** is **-0.003** which is a **very weak correlation coefficient**. Only one ROI seems to stand out in this instance which is **60-day campaign** with engagement score of **8** whose ROI is **$5.08** while the remaining values show no elevated ROI. The correlation coefficients confirm there is not significant time-delay or time-growth effect in spend efficiency. Campaign duration is not a meaningful level for ROI optimization in this dataset
@@ -55,7 +55,7 @@ Correlation coefficient values between **campaign duration and ROI** amounts to 
 
 - **Which specific Channel × Segment combination produces the highest ROAS, and does it have sufficient sample size to be trusted:** Facebook shows to be the channel with the most promising ROAS amongst the tech enthusiasts customer segment **($6.06)** across **6,616** campaigns. This suggests Facebook's smaller audience is disproportionately effective when targeting Tech Enthusiasts specifically indicating a concrete, trustworthy scaling opportunity.
 
-![alt text](assets/image-4.png)
+![alt text](assets/image-3.png)
 
 - **Within each channel, does higher Acquisition_Cost per campaign correlate with proportionally higher return, or do returns flatten past a certain spend level:** Higher Acquisition_Cost does not correlate with proportionally higher return. Spend and conversion are statistically independent across every channel as there is no diminishing-returns curve to detect, because there was never an increasing-returns relationship to begin with. This holds consistently across all six channels with a correlation range between **-0.000255 to -0.000277**, reinforcing the pattern of no meaningful differentiation found throughout this project.
 
